@@ -1,3 +1,6 @@
+/*
+https://www.codechef.com/COOK99B/problems/ADASTAIR
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
