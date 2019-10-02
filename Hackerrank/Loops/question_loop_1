@@ -1,0 +1,18 @@
+Question
+
+
+Input Format
+You will be given two positive integers a and b ,(a<=b) separated by a newline.
+
+Output Format
+for each integer in [a,b]
+print the spelling of integer if 1<=n<=9.
+print odd if n is odd and even if n is even.
+
+Sample input: 8
+			  11
+
+Sample Output:eight
+			  nine
+			  ten
+			  odd
