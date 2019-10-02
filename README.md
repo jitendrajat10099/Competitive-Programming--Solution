@@ -14,5 +14,6 @@ like codeforces , hackerearth, codechef , hackerrank .......
 * give **problem link** or **problem** and write code
 
 if any section not found you can create it
-
     - like spoj is missing now
+
+- If you found error in any problem you can commit them ..
