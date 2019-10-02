@@ -1,7 +1,9 @@
+/*
 SEPTEMBER 2018 LONG CHALLENGE
 link to the problem  
 
 https://www.codechef.com/SEPT18B/problems/MAGICHF/
+*/
 
 #include<stdio.h>
 int main()
