@@ -1,36 +1,23 @@
-
-/*
-SEPTEMBER 2018 LONG CHALLENGE
-link to the problem  
-
-https://www.codechef.com/SEPT18B/problems/MAGICHF/
-*/
-
 #include<stdio.h>
 int main()
 {
-int N,X,S,T,A,B;
-scanf("%d",&T);
-while(T--)
-{
-scanf("%d%d%d",&N,&X,&S);
-while(S--)
-{
-  scanf("%d%d",&A,&B);
-if(X==A)
-{
-    X=B;
-}
-else if(X==B)
-{
-     X=A;
-}
+    int n,x,s,a,b,t;
+    scanf("%d",&t);
+    while(t--)
+    {
+   scanf("%d%d%d",&n,&x,&s);
+    while(s--)
+    {
+        scanf("%d%d", &a,&b);
+       if(a==x)
+        x=b;
 
-}
+   else if(x==b)
+    x=a;
 
-printf("%d\n",X);
+    }
+    printf("%d\n",x);
+    }
+    
+    return 0;
 }
-return 0;
-}
-
-
