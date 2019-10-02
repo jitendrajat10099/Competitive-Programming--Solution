@@ -12,7 +12,7 @@ like codeforces , hackerearth, codechef , hackerrank .......
 * Select the plateform (eg hackerearth) 
 * select appropriate *section* (like maths) 
 * give **problem link** or **problem** and write code
-* Refer [this as formate](https://github.com/jitendrajat10099/Competitive-Programming--Solution/blob/master/Hackerearth/Stack/Capital_of_Hills.cpp) 
+* Refer [this ](https://github.com/jitendrajat10099/Competitive-Programming--Solution/blob/master/Hackerearth/Stack/Capital_of_Hills.cpp)as formate 
 
 if any section not found you can create it
     - like spoj is missing now
