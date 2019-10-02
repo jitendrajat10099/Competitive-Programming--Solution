@@ -1,3 +1,4 @@
+
 /*
 SEPTEMBER 2018 LONG CHALLENGE
 link to the problem  
@@ -31,10 +32,5 @@ printf("%d\n",X);
 }
 return 0;
 }
-
-
-
-
-
 
 

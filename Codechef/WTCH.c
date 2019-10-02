@@ -1,0 +1,55 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int t,c=0,i,n,sum,x,y,pos,f;
+    char s[1000009];
+    scanf("%d",&t);
+    while(t--)
+    {
+        c=0;sum=0;x=0;f=0;
+        scanf("%d",&n);
+        scanf("%s",&s);
+        for(i=0;i<strlen(s);i++)
+        {
+            if(s[i]=='0')
+                f++;
+        }
+        if(f==strlen(s))
+            printf("%d\n",(f+1)/2);
+        else
+        {
+for(i=0;i<strlen(s);i++)
+        {
+          if(s[i]=='1')
+          {
+              break;
+          }
+          x++;
+        }
+        sum=sum+(x/2);
+        for(i=0;i<strlen(s);i++)
+        {
+          if(s[i]=='1')
+          {
+              pos=i;
+          }
+        }
+        sum=sum+(strlen(s)-1-pos)/2;
+for(i=x+1;i<=pos;i++)
+{
+    if(s[i]=='1')
+    {
+        sum=sum+(c+1)/2-1;
+        c=0;
+    }
+    if(s[i]=='0')
+    {
+        c++;
+    }
+}
+printf("%d\n",sum);
+    }
+    }
+}
+
