@@ -1,6 +1,9 @@
+/*
 Problem Link: https://www.hackerrank.com/challenges/sock-merchant/copy-from/114501869
-#include <bits/stdc++.h>
 
+*/
+
+#include <bits/stdc++.h>
 using namespace std;
 int main()
 {
