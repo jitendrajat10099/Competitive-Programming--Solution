@@ -1,5 +1,5 @@
 /*
-Problem Link: https://www.hackerrank.com/challenges/sock-merchant/copy-from/114501869
+Problem Link: https://www.hackerrank.com/challenges/sock-merchant/
 
 */
 
