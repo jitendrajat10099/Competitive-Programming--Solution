@@ -1,5 +1,8 @@
 <?php
 
+/*
+   Link - https://www.hackerrank.com/challenges/apple-and-orange/problem
+*/
 // Complete the countApplesAndOranges function below.
 function countApplesAndOranges($s, $t, $a, $b, $apples, $oranges) {
 
