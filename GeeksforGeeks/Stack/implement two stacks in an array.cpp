@@ -7,16 +7,16 @@ Problem link- https://practice.geeksforgeeks.org/problems/implement-two-stacks-i
 using namespace std;
 class twoStacks
 {
-    int *arr;
-    int size;
-    int top1, top2;
+    int *arr;  //pointer
+    int size; //size of array
+    int top1, top2; //Points to the top position
 public:
    twoStacks(int n=100){size = n; arr = new int[n]; top1 = -1; top2 = size;}
 
-   void push1(int x);
-   void push2(int x);
-   int pop1();
-   int pop2();
+   void push1(int x); //inputting function
+   void push2(int x); //inputting function
+   int pop1(); //deletion function
+   int pop2(); //deletion function
 };
 int main()
 {
@@ -41,16 +41,17 @@ int main()
             sq->push1(a);
             else if(stack_no==2)
             sq->push2(a);
-        }else if(QueryType==2){
+        } //end of if
+            else if(QueryType==2){
         	if(stack_no==1)
             cout<<sq->pop1()<<" ";
             else if(stack_no==2)
             cout<<sq->pop2()<<" ";
-        }
-        }
+        } //end of else
+        } //end of while
         cout<<endl;
-    }
-}
+    } //end of main()
+} //end of class
 
 /*This is a function problem.You only need to complete the function given below*/
 /*The structure of the class is
