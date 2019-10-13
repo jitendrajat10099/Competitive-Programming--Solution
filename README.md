@@ -1,7 +1,7 @@
 
 
-This is an public repository for **Accepted solutions** of coding problems on different coding platforms
-like codeforces , hackerearth, codechef , hackerrank .......
+This is a public repository for **Accepted solutions** of coding problems on different coding platforms
+like Codeforces , hackerearth, CodeChef , HackerRank .......
 
 
 
