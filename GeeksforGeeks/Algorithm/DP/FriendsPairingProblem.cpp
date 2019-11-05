@@ -1,3 +1,7 @@
+/*
+https://practice.geeksforgeeks.org/problems/friends-pairing-problem/0
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
