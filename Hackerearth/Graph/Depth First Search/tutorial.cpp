@@ -1,3 +1,7 @@
+/*
+https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 void dfs(int s,vector <int> g[],bool visited[])
